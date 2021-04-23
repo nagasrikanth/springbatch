@@ -1,0 +1,152 @@
+﻿{
+  "requestMetaData": {
+    "appName": "ROCM",
+    "lineOfBusiness": "Retail",
+    "conversationID": "ID37f78d9e-8f62-4568-8350-cd3f64fd0717"
+  },
+  "requestPayloadData": {
+    "data": {
+      "memberType": "RXCONNECT_ID",
+      "memberID": "9999999",
+      "eventName": "SD_SYNC_PLAN_ORDER_DETAILS",
+      "channelType": "EMAIL",
+      "channelID": "sobebody@trick.com",
+      "origin": "SyncPlanOrderDetails"
+    },
+    "additionalData": {
+      "dynamicData": {
+        "dob": "1990-07-10",
+        "address": "#34, main street Royal lane"
+      },
+      "SyncPlanOrderDetails": {
+        "srcOpptyId": "123456789",
+        "srcOpptySrcCd": "CLNCLTRL"
+      },
+      "patientInfo": {
+        "patientFirstName": "John ",
+        "patientLastName": "Carpenter",
+        "DOB": "2010-10-01",
+        "patAddress": "671 East Royal lane",
+        "patCity": "El Paso",
+        "patState": "TX",
+        "patZipCode": "75039"
+      },
+      "facilityInfo": [
+        {
+          "Facility Type": "Type 1",
+          "Facility number": "123456",
+          "FacilityAddress": " 607, east block TX",
+          "FacilityCity": "EL Paso",
+          "FacilityState": "TX",
+          "FacilityZip": "736510",
+          "Facility hours": "8 Am - 4 PM",
+          "Facility phone number": "1458236589"
+        },
+        {
+          "Facility Type": "Type 2",
+          "Facility number": "123456",
+          "FacilityAddress": " 607, east block AL",
+          "FacilityCity": "EL Paso",
+          "FacilityState": "AL",
+          "FacilityZip": "736510",
+          "Facility hours": "8 Am - 4 PM",
+          "Facility phone number": "1458236589"
+        },
+        {
+          "Facility Type": "Type 3",
+          "Facility number": "123456",
+          "FacilityAddress": " 607, east block TX",
+          "FacilityCity": "EL Paso",
+          "FacilityState": "AZ",
+          "FacilityZip": "736510",
+          "Facility hours": "8 Am - 4 PM",
+          "Facility phone number": "1458236589"
+        }
+      ],
+      "scriptInfo": [
+        {
+          "rxNumber": "11111",
+          "medicationName": "BP",
+          "nbrOfRefills": "454",
+          "lastFillDate": "10-10-1998",
+          "lastPaidAmt": "$4500",
+          "currentCopayAmt": "$2500",
+          "prescriberId": "xyz"
+        },
+        {
+          "rxNumber": "22222",
+          "medicationName": "BP",
+          "nbrOfRefills": "454",
+          "lastFillDate": "10-10-1998",
+          "lastPaidAmt": "$4500",
+          "currentCopayAmt": "$2500",
+          "prescriberId": "xyz"
+        },
+        {
+          "rxNumber": "33333",
+          "medicationName": "BP",
+          "nbrOfRefills": "454",
+          "lastFillDate": "10-10-1998",
+          "lastPaidAmt": "$4500",
+          "currentCopayAmt": "$2500",
+          "prescriberId": "xyz"
+        }
+      ],
+      "prescriberInfo": [
+        {
+          "prescriberId": "10000",
+          "prescriberFirstname": "Jhon",
+          "prescriberLastname": "Smith",
+          "prescriberCredentials": "1010**",
+          "prescriberAddress": "EL pasto",
+          "prescriberPhoneNumber": "14586213"
+        },
+        {
+          "prescriberId": "20000",
+          "prescriberFirstname": "Jhon2",
+          "prescriberLastname": "Smith",
+          "prescriberCredentials": "1010**",
+          "prescriberAddress": "EL pasto",
+          "prescriberPhoneNumber": "14586213"
+        },
+        {
+          "prescriberId": "30000",
+          "prescriberFirstname": "Jhon3",
+          "prescriberLastname": "Smith",
+          "prescriberCredentials": "1010**",
+          "prescriberAddress": "EL pasto",
+          "prescriberPhoneNumber": "14586213"
+        }
+      ],
+      "messageContentInfo": [
+        {
+          "contentType": "type 1",
+          "contentHeaderText": "headr text 1",
+          "contentDetailText": "content",
+          "contentImageUrl": "www.xyztes.com",
+          "contentDetailUrL": "www.xyztes.com/detailurl",
+          "contentDetailLinkText": "content detail text",
+          "studyName": "Merck Clinical Trial"
+        },
+        {
+          "contentType": "type 2",
+          "contentHeaderText": "headr text 2",
+          "contentDetailText": "content",
+          "contentImageUrl": "www.xyztes.com",
+          "contentDetailUrL": "www.xyztes.com/detailurl",
+          "contentDetailLinkText": "content detail text",
+          "studyName": "Merck Clinical Trial"
+        },
+        {
+          "contentType": "type 3",
+          "contentHeaderText": "headr text 3",
+          "contentDetailText": "content",
+          "contentImageUrl": "www.xyztes.com",
+          "contentDetailUrL": "www.xyztes.com/detailurl",
+          "contentDetailLinkText": "content detail text",
+          "studyName": "Merck Clinical Trial"
+        }
+      ]
+    }
+  }
+}
